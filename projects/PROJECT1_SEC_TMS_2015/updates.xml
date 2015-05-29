@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE module_updates PUBLIC "-//NetBeans//DTD Autoupdate Catalog 2.6//EN" "http://www.netbeans.org/dtds/autoupdate-catalog-2_6.dtd">
+<module_updates timestamp="20/10/19/08/07/2013">
+
+
+
+<module_group name="Google App Engine">
+
+<module codenamebase="org.netbeans.modules.j2ee.appengine.editor" distribution="org-netbeans-modules-j2ee-appengine-editor.nbm" downloadsize="21762" homepage="" license="3C4DDDFF" moduleauthor="" needsrestart="false" releasedate="2013/07/08">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.netbeans.modules.j2ee.appengine.editor" OpenIDE-Module-Display-Category="Google App Engine" OpenIDE-Module-Implementation-Version="130708" OpenIDE-Module-Java-Dependencies="Java &gt; 1.7" OpenIDE-Module-Module-Dependencies="org.jdesktop.beansbinding/1 &gt; 1.2.0.121, org.jdesktop.layout/1 &gt; 1.8.0.103, org.netbeans.api.xml/1 &gt; 1.17.1, org.netbeans.core.multiview/1 &gt; 1.13, org.netbeans.modules.xml.catalog/2 &gt; 1.15.1.4, org.netbeans.modules.xml.multiview/1 = 2, org.openide.awt &gt; 7.7.0.1, org.openide.filesystems &gt; 7.21.0.1.1, org.openide.loaders &gt; 7.5, org.openide.nodes &gt; 7.9.0.1, org.openide.text &gt; 6.22, org.openide.util &gt; 8.0, org.openide.util.lookup &gt; 8.0, org.openide.windows &gt; 6.26" OpenIDE-Module-Name="Google App Engine Configuration Editor" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.1"/>
+    
+</module>
+
+<module codenamebase="org.netbeans.modules.j2ee.appengine.deployment" distribution="org-netbeans-modules-j2ee-appengine-deployment.nbm" downloadsize="11184" homepage="" license="3C4DDDFF" moduleauthor="" needsrestart="false" releasedate="2013/07/08">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.netbeans.modules.j2ee.appengine.deployment" OpenIDE-Module-Display-Category="Google App Engine" OpenIDE-Module-Implementation-Version="130708" OpenIDE-Module-Java-Dependencies="Java &gt; 1.7" OpenIDE-Module-Module-Dependencies="org.apache.tools.ant.module/3 &gt; 3.35.0.2, org.jdesktop.layout/1 &gt; 1.8.0.103, org.netbeans.api.progress/1 &gt; 1.13.0.1, org.netbeans.modules.j2eeserver/4 &gt; 1.55.0.1, org.netbeans.modules.keyring &gt; 1.0, org.netbeans.modules.projectapi/1 &gt; 1.24, org.netbeans.modules.projectuiapi/1 &gt; 1.65.1.8, org.openide.actions &gt; 6.29.1, org.openide.dialogs &gt; 7.10, org.openide.execution &gt; 1.13, org.openide.filesystems &gt; 7.21.0.1.1, org.openide.io &gt; 1.16, org.openide.nodes &gt; 7.9.0.1, org.openide.util &gt; 8.0, org.openide.util.lookup &gt; 8.0" OpenIDE-Module-Name="Google App Engine Deployment" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.2"/>
+    
+</module>
+
+<module codenamebase="org.netbeans.modules.j2ee.appengine.hints" distribution="org-netbeans-modules-j2ee-appengine-hints.nbm" downloadsize="16812" homepage="" license="3C4DDDFF" moduleauthor="" needsrestart="false" releasedate="2013/07/08">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.netbeans.modules.j2ee.appengine.hints" OpenIDE-Module-Display-Category="Google App Engine" OpenIDE-Module-Implementation-Version="130708" OpenIDE-Module-Java-Dependencies="Java &gt; 1.7" OpenIDE-Module-Module-Dependencies="org.netbeans.api.java/1 &gt; 1.19, org.netbeans.api.java.classpath/1 &gt; 1.19, org.netbeans.libs.javacapi &gt; 0.8.0.1, org.netbeans.modules.j2eeserver/4 &gt; 1.56.0.1, org.netbeans.modules.java.source &gt; 0.44.0.7.7.1, org.netbeans.modules.projectapi/1 &gt; 1.24, org.netbeans.spi.editor.hints/0-1 &gt; 1.9.0.7.2, org.netbeans.spi.java.hints &gt; 1.0.1.18.9.20.6, org.openide.filesystems &gt; 7.21.0.1.1, org.openide.util &gt; 8.0, org.openide.util.lookup &gt; 8.0" OpenIDE-Module-Name="Google App Engine Editor Hints" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.2"/>
+    
+</module>
+
+<module codenamebase="org.netbeans.modules.j2ee.appengine.samples" distribution="org-netbeans-modules-j2ee-appengine-samples.nbm" downloadsize="30872" homepage="" license="3C4DDDFF" moduleauthor="" needsrestart="false" releasedate="2013/07/08">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.netbeans.modules.j2ee.appengine.samples" OpenIDE-Module-Display-Category="Google App Engine" OpenIDE-Module-Implementation-Version="130708" OpenIDE-Module-Java-Dependencies="Java &gt; 1.7" OpenIDE-Module-Long-Description="The Samples project provides relevant sample application to demonstrate the Google App Engine technology." OpenIDE-Module-Module-Dependencies="org.jdesktop.layout/1 &gt; 1.7.1.103, org.netbeans.modules.j2eeserver/4 &gt; 1.56.1.1, org.netbeans.modules.projectapi/1 &gt; 1.24.1, org.netbeans.modules.projectuiapi/1 &gt; 1.35.1.6, org.openide.awt &gt; 7.8.1.1, org.openide.dialogs &gt; 7.10.1, org.openide.filesystems &gt; 7.21.1.1.1, org.openide.util &gt; 7.22.1.1" OpenIDE-Module-Name="Google App Engine Samples" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.1"/>
+    
+</module>
+
+<module codenamebase="org.netbeans.modules.j2ee.appengine" distribution="org-netbeans-modules-j2ee-appengine.nbm" downloadsize="51826" homepage="" license="3C4DDDFF" moduleauthor="" needsrestart="false" releasedate="2013/07/08">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.netbeans.modules.j2ee.appengine" OpenIDE-Module-Display-Category="Google App Engine" OpenIDE-Module-Implementation-Version="130708" OpenIDE-Module-Java-Dependencies="Java &gt; 1.7" OpenIDE-Module-Module-Dependencies="org.apache.tools.ant.module/3 = 2, org.jdesktop.layout/1 &gt; 1.24.1, org.netbeans.api.debugger/1 &gt; 1.40.1, org.netbeans.api.debugger.jpda/2 &gt; 2.39.1, org.netbeans.api.java.classpath/1 &gt; 1.36.1, org.netbeans.api.progress/1 &gt; 1.32.1, org.netbeans.api.web.webmodule &gt; 1.31.1, org.netbeans.modules.extexecution/2 &gt; 1.30, org.netbeans.modules.j2ee.ant &gt; 1.27.1.1, org.netbeans.modules.j2ee.core/0 &gt; 1.15.1, org.netbeans.modules.j2eeapis/1 &gt; 1.11, org.netbeans.modules.j2eeserver/4 &gt; 1.56.1.1, org.netbeans.modules.java.platform/1 &gt; 1.12, org.netbeans.modules.project.ant/1 &gt; 1.51.1, org.netbeans.modules.project.libraries/1 &gt; 1.20, org.netbeans.modules.projectapi/1 &gt; 1.24, org.netbeans.modules.projectuiapi/1 &gt; 1.35.0.6, org.netbeans.modules.server/0-1 &gt; 1.16.1, org.openide.actions &gt; 6.29.1, org.openide.awt &gt; 7.7.0.1, org.openide.dialogs &gt; 7.10, org.openide.execution &gt; 1.30.1, org.openide.explorer &gt; 6.18.0.1, org.openide.filesystems &gt; 7.21.0.1.1, org.openide.io &gt; 1.16, org.openide.loaders &gt; 7.44.2, org.openide.modules &gt; 7.10, org.openide.nodes &gt; 7.9.0.1, org.openide.text &gt; 6.54.2, org.openide.util &gt; 8.0, org.openide.util.lookup &gt; 8.0, org.openide.windows &gt; 6.60.1" OpenIDE-Module-Name="Google App Engine Server" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.1"/>
+    
+</module>
+
+<module codenamebase="org.netbeans.modules.j2ee.appengine.kit" distribution="org-netbeans-modules-j2ee-appengine-kit.nbm" downloadsize="3433" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2013/07/08">
+    <manifest AutoUpdate-Show-In-Client="true" OpenIDE-Module="org.netbeans.modules.j2ee.appengine.kit" OpenIDE-Module-Display-Category="Google App Engine" OpenIDE-Module-Implementation-Version="130708" OpenIDE-Module-Java-Dependencies="Java &gt; 1.7" OpenIDE-Module-Module-Dependencies="org.netbeans.modules.j2ee.appengine &gt; 1.1, org.netbeans.modules.j2ee.appengine.deployment &gt; 1.1, org.netbeans.modules.j2ee.appengine.editor &gt; 1.1, org.netbeans.modules.j2ee.appengine.hints &gt; 1.2, org.netbeans.modules.j2ee.appengine.samples &gt; 1.1" OpenIDE-Module-Name="Google App Engine Support" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.1"/>
+    
+</module>
+
+</module_group>
+
+<license name="3C4DDDFF" url="licenses/3C4DDDFF.license"/>
+<license name="AD9FBBC9" url="licenses/AD9FBBC9.license"/>
+</module_updates>
+

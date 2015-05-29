@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.web.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/web-project/3">
+            <name>Project_SEC_TMS_1</name>
+            <minimum-ant-version>1.6.5</minimum-ant-version>
+            <web-module-libraries>
+                <library dirs="200">
+                    <file>${file.reference.commons-fileupload-1.3-javadoc.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-fileupload-1.3-sources.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-fileupload-1.3-test-sources.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-fileupload-1.3-tests.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-fileupload-1.3.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons.io_2.0.1.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.cos.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jsoup-1.8.1-javadoc.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jsoup-1.8.1-sources.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jsoup-1.8.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.mail.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-fileupload-1.3-javadoc.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-fileupload-1.3-sources.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-fileupload-1.3-test-sources.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-fileupload-1.3-tests.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-fileupload-1.3.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons.io_2.0.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.cos.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.javax.mail.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jsoup-1.8.1-javadoc.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jsoup-1.8.1-sources.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jsoup-1.8.1.jar-1}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.mail.jar-2}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.iText-2.0.8.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.antlr-2.7.2.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.aopalliance-1.0.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.asm-5.0.2.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.asm-commons-5.0.2.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.asm-tree-5.0.2.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.builder-0.6.2.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.classworlds-1.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-beanutils-1.8.0.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-chain-1.2.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-collections-3.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-digester-2.0.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-fileupload-1.3.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-io-2.2.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-lang-2.4.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-lang3-3.2.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-logging-1.1.3.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-logging-api-1.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-validator-1.3.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.core-0.6.2.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.dwr-1.1.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.ezmorph-1.0.6.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.freemarker-2.3.19.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.google-collections-1.0.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.google-gxp-0.2.4-beta.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.guava-r09.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jackson-core-asl-1.9.2.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jackson-mapper-asl-1.9.2.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.javassist-3.11.0.GA.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.json-lib-2.3-jdk15.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.juli-6.0.18.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.mvel2-2.0.11.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.ognl-3.0.6.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.org.apache.felix.framework-4.0.3.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.org.apache.felix.main-4.0.3.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.org.apache.felix.shell-1.4.3.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.org.apache.felix.shell.tui-1.4.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.org.osgi.compendium-4.0.0.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.org.osgi.core-4.1.0.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.oro-2.0.8.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.oval-1.31.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.plexus-container-default-1.0-alpha-10.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.plexus-utils-1.2.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.sitemesh-2.4.2.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.spring-aop-3.0.5.RELEASE.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.spring-asm-3.0.5.RELEASE.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.spring-beans-3.0.5.RELEASE.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.spring-context-3.0.5.RELEASE.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.spring-core-3.0.5.RELEASE.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.spring-expression-3.0.5.RELEASE.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.spring-test-3.0.5.RELEASE.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.spring-web-3.0.5.RELEASE.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts-core-1.3.10.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-cdi-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-codebehind-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-config-browser-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-convention-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-core-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-dojo-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-dwr-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-embeddedjsp-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-gxp-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-jasperreports-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-javatemplates-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-jfreechart-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-jsf-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-json-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-junit-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-osgi-admin-bundle-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-osgi-demo-bundle-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-osgi-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-oval-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-pell-multipart-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-plexus-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-portlet-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-rest-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-sitegraph-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-sitemesh-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-spring-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-struts1-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-testng-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-tiles-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.struts2-tiles3-plugin-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-api-2.0.6.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-autotag-core-runtime-1.1.0.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-compat-3.0.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-core-2.0.6.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-el-3.0.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-extras-3.0.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-freemarker-3.0.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-jsp-2.0.6.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-mvel-3.0.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-ognl-3.0.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-request-api-1.0.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-request-freemarker-1.0.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-request-mustache-1.0.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-request-servlet-1.0.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-request-servlet-wildcard-1.0.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-request-velocity-1.0.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-servlet-3.0.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-template-3.0.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.tiles-velocity-3.0.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.velocity-1.6.4.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.velocity-tools-1.3.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.xmlpull-1.1.3.1.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.xpp3_min-1.1.4c.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.xstream-1.4.2.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.xwork-core-2.3.20.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.itext-pdfa-5.5.5-javadoc.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.itext-pdfa-5.5.5-sources.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.itext-pdfa-5.5.5.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.itext-xtra-5.5.5-javadoc.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.itext-xtra-5.5.5-sources.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.itext-xtra-5.5.5.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.itextpdf-5.5.5-javadoc.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.itextpdf-5.5.5-sources.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.itextpdf-5.5.5.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.ant-1.7.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.antlr-2.7.5.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.barbecue-1.5-beta1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.barcode4j-2.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik-anim.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik-awt-util.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik-bridge.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik-css.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik-dom.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik-ext.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik-gvt.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik-parser.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik-script.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik-svg-dom.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik-svggen.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik-util.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.batik-xml.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.bcel-5.2.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.bsh-2.0b4.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.castor-core-1.3.3.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.castor-xml-1.3.3.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-beanutils-1.9.0.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-codec-1.5.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-collections-3.2.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-digester-2.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-javaflow-20060411.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-logging-1.1.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.core-2.3.0.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.dom4j-1.6.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.ecj-4.3.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.groovy-all-2.0.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.hibernate3.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.hsqldb-1.8.0-10.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.httpclient-4.3.4.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.httpcore-4.3.2.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.iText-2.1.7.js2.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jackson-annotations-2.1.4.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jackson-core-2.1.4.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jackson-databind-2.1.4.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jaxen-1.1.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jcommon-1.0.15.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jfreechart-1.0.12.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jpa.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jxl-2.6.10.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.log4j-1.2.15.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.lucene-analyzers-common-4.5.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.lucene-core-4.5.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.lucene-queryparser-4.5.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.mondrian-3.1.1.12687.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.olap4j-0.9.7.309-JS-3.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.png-encoder-1.5.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.poi-3.10.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.poi-ooxml-3.10.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.poi-ooxml-schemas-3.10.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.rhino-1.7R3.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.saaj-api-1.3.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.serializer.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.servlet-api-2.4.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.spring-beans-2.5.5.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.spring-core-2.5.5.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.velocity-1.7-dep.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.xalan-2.7.1.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.xercesImpl-2.10.0.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jasperreports-6.0.4.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jasperreports-fonts-6.0.4.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.jasperreports-javaflow-6.0.4.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.xml-apis-ext.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.xml-apis.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.xmlbeans-2.5.0.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.mysql-connector-java-5.1.23-bin.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+            </web-module-libraries>
+            <web-module-additional-libraries/>
+            <source-roots>
+                <root id="src.dir"/>
+            </source-roots>
+            <test-roots>
+                <root id="test.src.dir"/>
+            </test-roots>
+        </data>
+        <libraries xmlns="http://www.netbeans.org/ns/ant-project-libraries/1">
+            <definitions>lib\nblibraries.properties</definitions>
+        </libraries>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>servlet</word>
+        </spellchecker-wordlist>
+    </configuration>
+</project>

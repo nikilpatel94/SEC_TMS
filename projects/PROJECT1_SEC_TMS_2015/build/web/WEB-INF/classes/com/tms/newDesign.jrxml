@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="newRe" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="fea752a3-bdc9-45b1-b843-b1c4a71dcd84">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     attendancereport.`StudentId` AS attendancereport_StudentId,
+     attendancereport.`StudentName` AS attendancereport_StudentName,
+     attendancereport.`Attend_per` AS attendancereport_Attend_per
+FROM
+     `attendancereport` attendancereport]]>
+	</queryString>
+	<field name="attendancereport_StudentId" class="java.lang.String"/>
+	<field name="attendancereport_StudentName" class="java.lang.String"/>
+	<field name="attendancereport_Attend_per" class="java.math.BigDecimal"/>
+	<group name="attendancereport_StudentId">
+		<groupExpression><![CDATA[$F{attendancereport_StudentId}]]></groupExpression>
+		<groupHeader>
+			<band height="33">
+				<staticText>
+					<reportElement mode="Opaque" x="0" y="0" width="100" height="32" forecolor="#666666" backcolor="#E6E6E6" uuid="9caa86ff-187b-4851-bc4e-a561657bee1f"/>
+					<textElement>
+						<font size="12"/>
+					</textElement>
+					<text><![CDATA[Student Id]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="100" y="0" width="455" height="32" forecolor="#006699" backcolor="#E6E6E6" uuid="f7fe74af-970f-4c2d-81cd-a3db6e765176"/>
+					<textElement>
+						<font size="24" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{attendancereport_StudentId}]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement x="-20" y="32" width="595" height="1" forecolor="#666666" uuid="92bce7c5-60bd-4884-a25e-d85dcd01aaf2"/>
+				</line>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band/>
+		</groupFooter>
+	</group>
+	<group name="attendancereport_StudentName">
+		<groupExpression><![CDATA[$F{attendancereport_StudentName}]]></groupExpression>
+		<groupHeader>
+			<band height="32">
+				<textField>
+					<reportElement x="100" y="0" width="455" height="32" forecolor="#006699" uuid="515a14dc-ce1a-4f8a-b484-e199153b11f9"/>
+					<textElement>
+						<font size="22" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{attendancereport_StudentName}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="0" width="100" height="32" forecolor="#666666" uuid="5e15b937-08f4-46d0-bd45-1b9ec11bafcb"/>
+					<textElement>
+						<font size="12"/>
+					</textElement>
+					<text><![CDATA[Stuudent Name]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band/>
+		</groupFooter>
+	</group>
+	<group name="attendancereport_Attend_per">
+		<groupExpression><![CDATA[$F{attendancereport_Attend_per}]]></groupExpression>
+		<groupHeader>
+			<band height="32">
+				<textField>
+					<reportElement x="100" y="0" width="41" height="32" forecolor="#006699" uuid="af911a45-e6a8-480e-b47d-14b6ef03d76d"/>
+					<textElement>
+						<font size="20" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{attendancereport_Attend_per}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="0" width="100" height="32" forecolor="#666666" uuid="414459d7-3003-4662-9c9b-1accfa0a9d84"/>
+					<textElement>
+						<font size="12"/>
+					</textElement>
+					<text><![CDATA[AttendPerc%]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="135" y="4" width="100" height="20" uuid="37ad1d87-721b-4db3-ae65-ff5bc5803d26"/>
+					<textElement>
+						<font size="15" isBold="true"/>
+					</textElement>
+					<text><![CDATA[%]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band/>
+		</groupFooter>
+	</group>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="72">
+			<frame>
+				<reportElement mode="Opaque" x="-20" y="-20" width="595" height="92" backcolor="#006699" uuid="19fa0288-7e00-4daf-8c3c-2bb2e95855b4"/>
+				<staticText>
+					<reportElement x="20" y="20" width="234" height="43" forecolor="#FFFFFF" uuid="b9059aa8-8a99-422e-a86a-2c406a2dd7d7"/>
+					<textElement>
+						<font size="34" isBold="true"/>
+					</textElement>
+					<text><![CDATA[S.E.C.(V.V.N)]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="395" y="43" width="180" height="20" forecolor="#FFFFFF" uuid="717b6fad-1797-4735-add9-9c0b3ea89c2c"/>
+					<textElement textAlignment="Right">
+						<font size="14" isBold="false"/>
+					</textElement>
+					<text><![CDATA[Attendance Report]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="13"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="21">
+			<line>
+				<reportElement x="-20" y="20" width="595" height="1" forecolor="#666666" uuid="f378be49-db64-4215-819e-849c623371e2"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="19" width="555" height="1" uuid="6e5cd461-5cd2-421a-a29e-5a2dc04a0ae9"/>
+			</line>
+		</band>
+	</detail>
+	<columnFooter>
+		<band/>
+	</columnFooter>
+	<pageFooter>
+		<band height="17">
+			<textField>
+				<reportElement mode="Opaque" x="0" y="4" width="515" height="13" backcolor="#E6E6E6" uuid="daae6dd1-fc06-4458-96ae-2a4f3728f326"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement mode="Opaque" x="515" y="4" width="40" height="13" backcolor="#E6E6E6" uuid="a8f3ab20-d699-48a1-a2f7-2abcec71c5f1"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="0" y="4" width="100" height="13" uuid="53de83db-e4f8-4315-bf08-3666a6468372"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,5 @@
+$('input[type="checkbox"].large').checkbox({
+    buttonStyle: 'btn-link btn-large',
+    checkedClass: 'icon-check',
+    uncheckedClass: 'icon-check-empty'
+});
